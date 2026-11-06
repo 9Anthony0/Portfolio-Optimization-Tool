@@ -2,7 +2,7 @@
 
 An interactive mean-variance optimizer. Enter 5–15 tickers, set your constraints, and it pulls live price history, solves for the optimal weights and plots the efficient frontier.
 
-<!-- LIVE DEMO: add your Streamlit link here, e.g. **[Try the live app](https://your-app.streamlit.app)** -->
+🚀 **[Try the live app](https://petrescu-portfolio.streamlit.app)**
 
 📝 **Write-up:** [Implementing Modern Portfolio Theory: Building a Live Optimizer from the Ground Up](https://9numbers0.substack.com/p/implementing-modern-portfolio-theory)
 
@@ -30,8 +30,8 @@ An interactive mean-variance optimizer. Enter 5–15 tickers, set your constrain
 
 ## Run it locally
 ```bash
-cd "MGMT490 Project2"
 pip install -r requirements.txt
+cd "MGMT490 Project2"
 streamlit run app.py
 ```
 
@@ -39,7 +39,6 @@ streamlit run app.py
 ```
 MGMT490 Project2/
 ├── app.py                    # Streamlit app: data, optimization, charts
-├── requirements.txt
 ├── DRIVER_Documentation.md   # Build process: discover → represent → implement → validate → evolve → reflect
 └── AI_Usage_Disclosure.md    # How AI tools were and weren't used
 Video Explanation Transcript.pdf
